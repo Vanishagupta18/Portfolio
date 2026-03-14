@@ -1,0 +1,101 @@
+{
+  "name": "Vanisha Gupta",
+  "bio": "Full-stack developer focused on building scalable web applications and integrating AI-driven solutions.",
+  "brief": "Third-year B.Tech CSE student (AKTU, CGPA 8.30) specializing in full-stack and frontend development using React.js, Next.js, Node.js, and TypeScript. Experienced in AI integration (OpenAI API, LangChain, Make/n8n) and 3D visualization (Three.js). Solved 100+ DSA problems and passionate about building real-world impactful projects.",
+  "photos": "../assets/MyPhoto.webp",
+
+  "contact": {
+    "email": "guptavanisha11@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/vanisha-gupta-40305a294/",
+    "github": "https://github.com/Vanishagupta18",
+    "leetcode": "https://leetcode.com/u/Vanishagupta/"
+  },
+
+  "skills": {
+    "Languages": ["C", "Java", "Python", "JavaScript", "TypeScript", "SQL", "HTML5", "CSS3"],
+    "Frontend": ["React.js", "Next.js", "Redux", "Tailwind CSS", "Bootstrap", "Three.js"],
+    "Backend": ["Node.js", "Express.js"],
+    "AI & Automation": ["OpenAI API", "Prompt Engineering", "Generative AI", "LangChain (Basics)", "Make/n8n"],
+    "Databases": ["MySQL", "MongoDB"],
+    "Tools": ["Git", "GitHub", "Postman", "Figma", "REST APIs"]
+  },
+
+  "projects": [
+    {
+      "title": "INDIANIME",
+      "description": "A modular React.js e-commerce SPA with 3D product visualization. Built reusable UI components and implemented client-side routing across multiple pages. Integrated Three.js for 360° interactive previews and designed responsive UI using Tailwind CSS.",
+      "technologies": ["React.js", "Three.js", "TypeScript", "Tailwind CSS", "React Router DOM"]
+    },
+    {
+      "title": "AutoInquire — AI Inquiry Automation System",
+      "description": "End-to-end automated inquiry pipeline using Google Forms and OpenAI API. Delivered context-aware responses and reduced response time from hours to under 2 minutes. Implemented agentic workflows with Make (n8n) for automated Gmail replies and Slack notifications.",
+      "technologies": ["OpenAI API", "Google Forms", "Google Sheets", "Make (n8n)"]
+    },
+    {
+      "title": "AI Language Tutor",
+      "description": "Multimodal AI tutoring app built with Streamlit integrating GPT-4o, Whisper, and GPT-3.5. Includes speech-to-text pipeline for evaluating spoken responses and providing instant feedback on grammar, translation, and image-based tasks.",
+      "technologies": ["Python", "Streamlit", "OpenAI API", "Whisper", "sounddevice"]
+    }
+  ],
+
+  "experience": [
+    {
+      "organization": "Gyan Jyoti Annual Fest 2025",
+      "role": "Promotion & Registration Team Member",
+      "location": "Mathura, Uttar Pradesh",
+      "highlights": [
+        "Managed digital registration workflows across 5+ colleges",
+        "Achieved 800+ registrations and generated ₹40,000 revenue",
+        "Coordinated outreach campaigns and improved event visibility"
+      ]
+    },
+    {
+      "organization": "Byte Club",
+      "role": "Technical Event Volunteer",
+      "location": "Mathura, Uttar Pradesh",
+      "highlights": [
+        "Supported execution of 4+ technical events with 100+ participants",
+        "Managed registrations, scheduling, and result tracking"
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "B.Tech in Computer Science and Engineering",
+      "institution": "Hindustan College of Science and Technology, Mathura",
+      "gpa": "8.30 / 10.0",
+      "duration": "Sep 2023 – Jun 2027 (Expected)"
+    },
+    {
+      "degree": "Senior Secondary (Class XII)",
+      "institution": "St Mary’s Convent School, Agra",
+      "gpa": "92.5%",
+      "achievement": "2nd Rank in school",
+      "year": "2023"
+    }
+  ],
+
+  "achievements": [
+    "Completed 25-hour Generative AI workshop (OpenAI APIs, prompt engineering, Make/n8n)",
+    "Solved 100+ DSA problems on LeetCode",
+    "Selected for 22nd Innovation Day (SkillBridge project)",
+    "Finalist in Logic Quest 1.0, Byte Master, and Brainometry competitions"
+  ],
+
+  "coursework": [
+    "Data Structures",
+    "Algorithms",
+    "DBMS",
+    "Machine Learning",
+    "Artificial Intelligence",
+    "Software Engineering",
+    "Web Technology",
+    "Operating Systems",
+    "Computer Networks",
+    "Compiler Design",
+    "Theory of Computation",
+    "OOP",
+    "Computer Graphics"
+  ]
+}
