@@ -1,7 +1,7 @@
 /* eslint-disable no-useless-escape */
 import React, { useState, useEffect, useContext } from "react";
 import "./Home.css";
-import profilePic from "../../../assets/Vanisha.png";
+import profilePic from "../../../assets/Vanisha.jpg";
 import { AppContext } from "../../../context/AppContext";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { vscDarkPlus } from "react-syntax-highlighter/dist/esm/styles/prism";

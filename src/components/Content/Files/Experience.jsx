@@ -4,121 +4,100 @@ import { vscDarkPlus } from "react-syntax-highlighter/dist/esm/styles/prism";
 import "./Experience.css";
 
 function Experience() {
-  const codeString = `/* experience.css */
+  const codeString = `// Vanisha Gupta - Developer Profile
 
-.Vanisha-Gupta {
-  phone: "6396853591";
-  email: "guptavanisha11@gmail.com";
-  github: "Vanishagupta18";
+const VanishaGupta = {
+  contact: {
+    phone: "6396853591",
+    email: "guptavanisha11@gmail.com",
+    github: "Vanishagupta18"
+  },
+
+  summary: "Full-stack developer focused on React.js, Node.js, and AI integrations. Built scalable UI systems, AI workflows, and 3D web experiences.",
 
   education: {
-    hindustan_college: {
-      degree: "Bachelor of Technology (B.Tech) in Computer Science and Engineering",
-      institution: "Hindustan College of Science and Technology, Mathura",
-      university: "Dr. A.P.J. Abdul Kalam Technical University (AKTU)",
-      duration: "Sep 2023 - Jun 2027 (Expected)",
-      cgpa: "8.30 / 10.0",
-      coursework: [
-        "Data Structures",
-        "Design and Analysis of Algorithms",
-        "Database Management Systems (DBMS)",
-        "Machine Learning",
-        "Operating Systems",
-        "Computer Graphics",
-        "Computer Networks",
-        "Object-Oriented Programming"
-      ]
+    btech_cse: {
+      college: "Hindustan College of Science and Technology, Mathura",
+      university: "AKTU",
+      cgpa: "8.30/10",
+      duration: "2023 - 2027"
     },
-    st_marys_convent_school: {
-      degree: "Senior Secondary (Class XII)",
-      institution: "St Mary's Convent School, Agra",
-      percentage: "92.5%",
-      year: "2023",
-      rank: "2nd Rank in Senior Secondary"
+    class_12: {
+      school: "St Mary's Convent School, Agra",
+      score: "92.5%",
+      rank: "2nd"
     }
-  };
+  },
 
   experience: {
-    Gyan_Jyoti_Annual_Fest_2025: {
-      role: "Promotion & Registration Team Member",
-      location: "Mathura, Uttar Pradesh",
-      highlights: [
-        "Drove participant onboarding and promotional campaigns, resulting in 800+ registrations",
-        "Generated INR 40,000 in revenue through targeted registration drives and inter-college outreach",
-        "Increased fest visibility across 5+ colleges by streamlining registration workflows",
-        "Coordinated cross-team promotions to maximize event participation"
+    gyan_jyoti_fest: {
+      role: "Promotion & Registration Team",
+      impact: [
+        "Handled 800+ registrations across 5+ colleges",
+        "Generated ₹40,000 revenue via structured campaigns",
+        "Optimized registration workflow using Google Forms + Sheets"
       ]
     },
-    Byte_Club: {
-      role: "Event Volunteer",
-      location: "Mathura, Uttar Pradesh",
-      highlights: [
-        "Supported execution of 4+ technical events with 100+ total participants",
-        "Managed registrations and logistics for smooth event operations",
-        "Maintained participant records, schedules, and coordination details"
+
+    byte_club: {
+      role: "Technical Event Volunteer",
+      impact: [
+        "Executed 4+ technical events (100+ participants)",
+        "Managed logistics, registrations, and schedules"
       ]
     }
-  };
+  },
 
   projects: {
-    SkillBridge: {
-      type: "Innovation Day Project",
-      stack: ["HTML", "JavaScript (ES6+)", "React.js", "Tailwind CSS"],
-      features: [
-        "Designed features enabling 20+ local businesses to showcase offerings digitally",
-        "Built an analytics dashboard tracking 3+ business metrics (sales trends, growth rate, transactions)",
-        "Developed modular training and promotion features for future business onboarding",
-        "Delivered with a 3-member team within a fixed Innovation Day timeline"
+    INDIANIME: {
+      stack: ["React.js", "Three.js", "TypeScript", "Tailwind"],
+      highlights: [
+        "Built modular e-commerce SPA with 10+ reusable components",
+        "Implemented 3D product visualization using @react-three/fiber",
+        "Optimized navigation with React Router (6+ pages)"
       ]
     },
-    INDIANIME: {
-      stack: ["HTML5", "JavaScript", "React.js", "Tailwind CSS", "Three.js"],
-      features: [
-        "Developed a frontend e-commerce platform with 10+ reusable UI components",
-        "Implemented client-side routing across 6+ pages using React Router DOM",
-        "Integrated immersive 3D product visualization using Three.js with @react-three/fiber",
-        "Designed a responsive UI with 10+ interactive components and animations"
+
+    AutoInquire: {
+      stack: ["OpenAI API", "Make/n8n", "Google Forms"],
+      highlights: [
+        "Automated inquiry system reducing response time to <2 mins",
+        "Built AI-powered workflows with real-time email & Slack triggers"
+      ]
+    },
+
+    AI_Language_Tutor: {
+      stack: ["Python", "Streamlit", "OpenAI API"],
+      highlights: [
+        "Integrated GPT + Whisper for speech & text evaluation",
+        "Built real-time feedback system for language learning"
       ]
     }
-  };
+  },
 
   skills: {
-    languages: ["C", "Java", "Python", "JavaScript", "TypeScript", "SQL", "HTML", "CSS"],
-    frameworks: ["React.js", "Redux", "Node.js", "Express.js", "Tailwind", "Bootstrap", "Mongoose"],
-    databases: ["MySQL", "MongoDB"],
-    tools: ["Git/GitHub", "Postman", "VS Code", "Figma", "Cloudinary", "Canva", "MS Office"],
-    concepts: ["Data Structures", "Algorithms", "OOP", "Operating Systems", "DBMS", "REST APIs"]
-  };
+    languages: ["C", "Java", "Python", "JavaScript", "TypeScript", "SQL"],
+    frameworks: ["React.js", "Node.js", "Express.js", "Next.js", "Redux"],
+    tools: ["Git", "Postman", "Figma", "REST APIs"],
+    ai: ["OpenAI API", "LangChain", "Prompt Engineering", "n8n"]
+  },
 
   achievements: [
-    "🏆 800+ registrations & INR 40,000 revenue — Gyan Jyoti Annual Fest 2025",
-    "👑 Assistant Coordinator – Invitation & Registration (large-scale events)",
-    "🎨 Creative Head, Value Education Cell — social-impact student initiatives",
-    "🏅 Finalist — Logic Quest 1.0, Byte Master (Coding), Brainometry (Aptitude)",
-    "🥈 2nd Rank in Senior Secondary (Class XII) with 92.5%"
-  ];
-}
+    "Solved 100+ DSA problems on LeetCode",
+    "Selected for Innovation Day (SkillBridge project)",
+    "Finalist in Logic Quest, Byte Master, Brainometry"
+  ]
+};
+
+export default VanishaGupta;
 `;
 
   return (
     <div className="experience-container">
       <SyntaxHighlighter
-        language="css"
+        language="javascript"
         style={vscDarkPlus}
-        customStyle={{
-          fontSize: "14px",
-          background: "#1e1e1e",
-          padding: "1.5rem",
-          borderRadius: "8px",
-          overflowX: "auto",
-        }}
         showLineNumbers
-        lineNumberStyle={{
-          color: "#555",
-          paddingRight: "10px",
-          minWidth: "2em",
-          textAlign: "right",
-        }}
       >
         {codeString}
       </SyntaxHighlighter>
